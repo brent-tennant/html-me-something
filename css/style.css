@@ -7,7 +7,9 @@ body{
 ul{
   list-style: none;
 }
-
+ul li{
+  padding: 5px 0 5px 0;
+}
 header{
   margin-top: 40px;
   padding: 20px;
@@ -16,17 +18,30 @@ header{
 }
 /*MAIN*/
 main{
-  background-color: #333;
-  color: #fff;
+  background-color: #999;
+  color: #333;
   padding: 40px 0 40px 0;
 }
   main h3{
     margin-top: 0px;
   }
-  main ul li{
-    padding: 5px 0 5px 0;
-  }
 /*ARTICLE*/
 .container{
+  background-color: #ddd;
+  padding: 40px 0 40px 0;
+}
+  .container img{
+    max-width: 400px;
+    border-radius: 10px;
+    border: 1px solid #333;
+  }
+#places-been{
+  background-color: #bbb;
+}
+  #places-been ul{
+    padding:0px;
+  }
 
+footer{
+  color: #fff;
 }
